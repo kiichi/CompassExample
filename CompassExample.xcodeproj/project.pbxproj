@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A7D81BE14B2372800649854 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D81BD14B2372800649854 /* UIKit.framework */; };
+		4A7D81C014B2372800649854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D81BF14B2372800649854 /* Foundation.framework */; };
+		4A7D81C214B2372800649854 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D81C114B2372800649854 /* CoreGraphics.framework */; };
+		4A7D81C814B2372800649854 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D81C614B2372800649854 /* InfoPlist.strings */; };
+		4A7D81CA14B2372800649854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D81C914B2372800649854 /* main.m */; };
+		4A7D81CE14B2372800649854 /* OGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D81CD14B2372800649854 /* OGAppDelegate.m */; };
+		4A7D81D114B2372800649854 /* OGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7D81D014B2372800649854 /* OGViewController.m */; };
+		4A7D81D414B2372800649854 /* OGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D81D214B2372800649854 /* OGViewController.xib */; };
+		4A7D81DB14B2374600649854 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D81DA14B2374600649854 /* CoreLocation.framework */; };
+		4A7D81DD14B2374E00649854 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7D81DC14B2374E00649854 /* QuartzCore.framework */; };
+		4A7D81DF14B2378A00649854 /* compass_needle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7D81DE14B2378A00649854 /* compass_needle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A7D81B914B2372800649854 /* CompassExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompassExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7D81BD14B2372800649854 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A7D81BF14B2372800649854 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A7D81C114B2372800649854 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A7D81C514B2372800649854 /* CompassExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CompassExample-Info.plist"; sourceTree = "<group>"; };
+		4A7D81C714B2372800649854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A7D81C914B2372800649854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A7D81CB14B2372800649854 /* CompassExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CompassExample-Prefix.pch"; sourceTree = "<group>"; };
+		4A7D81CC14B2372800649854 /* OGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGAppDelegate.h; sourceTree = "<group>"; };
+		4A7D81CD14B2372800649854 /* OGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGAppDelegate.m; sourceTree = "<group>"; };
+		4A7D81CF14B2372800649854 /* OGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGViewController.h; sourceTree = "<group>"; };
+		4A7D81D014B2372800649854 /* OGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGViewController.m; sourceTree = "<group>"; };
+		4A7D81D314B2372800649854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OGViewController.xib; sourceTree = "<group>"; };
+		4A7D81DA14B2374600649854 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4A7D81DC14B2374E00649854 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4A7D81DE14B2378A00649854 /* compass_needle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass_needle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A7D81B614B2372800649854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7D81DD14B2374E00649854 /* QuartzCore.framework in Frameworks */,
+				4A7D81DB14B2374600649854 /* CoreLocation.framework in Frameworks */,
+				4A7D81BE14B2372800649854 /* UIKit.framework in Frameworks */,
+				4A7D81C014B2372800649854 /* Foundation.framework in Frameworks */,
+				4A7D81C214B2372800649854 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A7D81AE14B2372800649854 = {
+			isa = PBXGroup;
+			children = (
+				4A7D81C314B2372800649854 /* CompassExample */,
+				4A7D81BC14B2372800649854 /* Frameworks */,
+				4A7D81BA14B2372800649854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A7D81BA14B2372800649854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A7D81B914B2372800649854 /* CompassExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A7D81BC14B2372800649854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7D81DC14B2374E00649854 /* QuartzCore.framework */,
+				4A7D81DA14B2374600649854 /* CoreLocation.framework */,
+				4A7D81BD14B2372800649854 /* UIKit.framework */,
+				4A7D81BF14B2372800649854 /* Foundation.framework */,
+				4A7D81C114B2372800649854 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A7D81C314B2372800649854 /* CompassExample */ = {
+			isa = PBXGroup;
+			children = (
+				4A7D81DE14B2378A00649854 /* compass_needle.png */,
+				4A7D81CC14B2372800649854 /* OGAppDelegate.h */,
+				4A7D81CD14B2372800649854 /* OGAppDelegate.m */,
+				4A7D81CF14B2372800649854 /* OGViewController.h */,
+				4A7D81D014B2372800649854 /* OGViewController.m */,
+				4A7D81D214B2372800649854 /* OGViewController.xib */,
+				4A7D81C414B2372800649854 /* Supporting Files */,
+			);
+			path = CompassExample;
+			sourceTree = "<group>";
+		};
+		4A7D81C414B2372800649854 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A7D81C514B2372800649854 /* CompassExample-Info.plist */,
+				4A7D81C614B2372800649854 /* InfoPlist.strings */,
+				4A7D81C914B2372800649854 /* main.m */,
+				4A7D81CB14B2372800649854 /* CompassExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A7D81B814B2372800649854 /* CompassExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7D81D714B2372800649854 /* Build configuration list for PBXNativeTarget "CompassExample" */;
+			buildPhases = (
+				4A7D81B514B2372800649854 /* Sources */,
+				4A7D81B614B2372800649854 /* Frameworks */,
+				4A7D81B714B2372800649854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CompassExample;
+			productName = CompassExample;
+			productReference = 4A7D81B914B2372800649854 /* CompassExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A7D81B014B2372800649854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4A7D81B314B2372800649854 /* Build configuration list for PBXProject "CompassExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A7D81AE14B2372800649854;
+			productRefGroup = 4A7D81BA14B2372800649854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A7D81B814B2372800649854 /* CompassExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A7D81B714B2372800649854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7D81C814B2372800649854 /* InfoPlist.strings in Resources */,
+				4A7D81D414B2372800649854 /* OGViewController.xib in Resources */,
+				4A7D81DF14B2378A00649854 /* compass_needle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A7D81B514B2372800649854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7D81CA14B2372800649854 /* main.m in Sources */,
+				4A7D81CE14B2372800649854 /* OGAppDelegate.m in Sources */,
+				4A7D81D114B2372800649854 /* OGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A7D81C614B2372800649854 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7D81C714B2372800649854 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A7D81D214B2372800649854 /* OGViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7D81D314B2372800649854 /* en */,
+			);
+			name = OGViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A7D81D514B2372800649854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A7D81D614B2372800649854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A7D81D814B2372800649854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CompassExample/CompassExample-Prefix.pch";
+				INFOPLIST_FILE = "CompassExample/CompassExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A7D81D914B2372800649854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CompassExample/CompassExample-Prefix.pch";
+				INFOPLIST_FILE = "CompassExample/CompassExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A7D81B314B2372800649854 /* Build configuration list for PBXProject "CompassExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7D81D514B2372800649854 /* Debug */,
+				4A7D81D614B2372800649854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7D81D714B2372800649854 /* Build configuration list for PBXNativeTarget "CompassExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7D81D814B2372800649854 /* Debug */,
+				4A7D81D914B2372800649854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A7D81B014B2372800649854 /* Project object */;
+}
