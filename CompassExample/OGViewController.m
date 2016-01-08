@@ -23,15 +23,21 @@
 - (void)locationManager:(CLLocationManager *)manager didUpdateHeading:(CLHeading *)newHeading{
 	// Convert Degree to Radian and move the needle
 	float oldRad =  -manager.heading.trueHeading * M_PI / 180.0f;
-	float newRad =  -newHeading.trueHeading * M_PI / 180.0f;		
-	CABasicAnimation *theAnimation;
-    theAnimation=[CABasicAnimation animationWithKeyPath:@"transform.rotation"];
-    theAnimation.fromValue = [NSNumber numberWithFloat:oldRad];
-    theAnimation.toValue=[NSNumber numberWithFloat:newRad];
-    theAnimation.duration = 0.5f;    
-    [compassImage.layer addAnimation:theAnimation forKey:@"animateMyRotation"];
-    compassImage.transform = CGAffineTransformMakeRotation(newRad);
-	NSLog(@"%f (%f) => %f (%f)", manager.heading.trueHeading, oldRad, newHeading.trueHeading, newRad);	
+	float newRad =  -newHeading.trueHeading * M_PI / 180.0f;
+    
+    [UIView animateWithDuration:0.2
+                     animations:^{
+                         compassImage.transform = CGAffineTransformMakeRotation(newRad);
+                     }];
+//	CABasicAnimation *theAnimation;
+//    theAnimation=[CABasicAnimation animationWithKeyPath:@"transform.rotation"];
+//    theAnimation.fromValue = [NSNumber numberWithFloat:oldRad];
+//    theAnimation.toValue=[NSNumber numberWithFloat:newRad];
+//    theAnimation.duration = 0.01f;
+//    
+//    [compassImage.layer addAnimation:theAnimation forKey:@"animateMyRotation"];
+//    compassImage.transform = CGAffineTransformMakeRotation(newRad);
+	NSLog(@"%f (%f) => %f (%f)", manager.heading.trueHeading, oldRad, newHeading.trueHeading, newRad);
 }
 
 @end
